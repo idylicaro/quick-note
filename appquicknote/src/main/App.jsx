@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 
-
-import Navbar from '../components/templates/Navbar';
+import Header from '../components/templates/Header';
 
 export default () => (
-  <div>
-    <Navbar />
+  <div className="app">
+    <Header />
   </div>
 );

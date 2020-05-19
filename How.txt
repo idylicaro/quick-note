@@ -6,3 +6,13 @@ Bulma :
 Icons :
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
+
+Pattern bulma?
+section "hero"
+    div "hero-type"
+        div "container"
+        
+exemple site util:
+https://bulmatemplates.github.io/bulma-templates/templates/kanban[search].html
+https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/kanban[search].html
+
