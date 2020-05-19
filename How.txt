@@ -1,0 +1,8 @@
+Bulma :
+
+1 -   npm install bulma
+2 -   import 'bulma/css/bulma.css'
+
+Icons :
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
