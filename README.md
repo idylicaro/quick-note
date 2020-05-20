@@ -2,20 +2,14 @@
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
-
 # QuickNote
 
 > Quick note is a quick note taking application where you can send these notes to your telegram, email or download
 
 > Quick note is an application to solve a problem in my day a day, i wait help some peoples that go through the same problem.
 
-> React,
-
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
-
-***INSERT ANOTHER GRAPHIC HERE***
 <!-- Insert Imgs -->
 
 <!-- Insert GIFS 
@@ -25,7 +19,7 @@
 
 ## Table of Contents (Optional)
 
-- [Installation](#installation)
+- [Setup](#Setup)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
@@ -50,35 +44,20 @@ let generateProject = project => {
 
 ---
 
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
 ### Clone
 
 - Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
 ### Setup
 
-- If you want more syntax highlighting, format your code like this:
+> npm or yarn is required (dependency manager)
 
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
+> now install packages
 
 ```shell
 $ npm install
-$ bower install
+$ yarn install
 ```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-
 ---
 
 ## Features
