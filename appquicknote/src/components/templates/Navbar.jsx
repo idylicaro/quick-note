@@ -1,39 +1,31 @@
 import React from 'react';
 import './sass/Navbar.scss';
+import 'rbx/index.css';
+import { Navbar } from 'rbx';
 
 export default () => (
-  <nav
-    className="navbar is-primary"
-    role="navigation"
-    aria-label="main navigation"
-  >
-    <div className="navbar-brand">
-      <a className="navbar-item">
-        <img alt="Logo" />
-      </a>
-      <span className="navbar-burger burger" data-target="navbarMenuHeroA">
-        <span />
-        <span />
-        <span />
-      </span>
-    </div>
-    <div className="navbar-menu">
-      <div className="navbar-start">
-        <a className="navbar-item is-active">
-          Home
-        </a>
-        <a className="navbar-item">
-          Workspace
-        </a>
-      </div>
+  <Navbar color="info">
+    <Navbar.Brand>
+      <Navbar.Item href="#">
+        <img
+          src="https://bulma.io/images/bulma-logo.png"
+          alt="Logo"
+          role="presentation"
+          width="112"
+          height="28"
+        />
+      </Navbar.Item>
+      <Navbar.Burger />
+    </Navbar.Brand>
+    <Navbar.Menu>
+      <Navbar.Segment align="start">
+        <Navbar.Item>Home</Navbar.Item>
+        <Navbar.Item>Workspace</Navbar.Item>
+      </Navbar.Segment>
 
-      <div className="navbar-end">
-        <a className="
-        navbar-item"
-        >
-          Configuration
-        </a>
-      </div>
-    </div>
-  </nav>
+      <Navbar.Segment align="end">
+        <Navbar.Item>Configuration</Navbar.Item>
+      </Navbar.Segment>
+    </Navbar.Menu>
+  </Navbar>
 );

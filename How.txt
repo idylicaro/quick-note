@@ -16,3 +16,11 @@ exemple site util:
 https://bulmatemplates.github.io/bulma-templates/templates/kanban[search].html
 https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/kanban[search].html
 
+
+
+RBX:
+https://dfee.github.io/rbx/components/navbar
+
+import 'rbx/index.css';
+import { Navbar } from 'rbx';
+
