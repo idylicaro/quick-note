@@ -19,8 +19,8 @@ export default () => (
     </Navbar.Brand>
     <Navbar.Menu>
       <Navbar.Segment align="start">
-        <Navbar.Item>Home</Navbar.Item>
-        <Navbar.Item>Workspace</Navbar.Item>
+        <Navbar.Item href="#/">Home</Navbar.Item>
+        <Navbar.Item href="#/workspace" >Workspace</Navbar.Item>
       </Navbar.Segment>
 
       <Navbar.Segment align="end">
