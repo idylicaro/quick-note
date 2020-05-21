@@ -8,7 +8,8 @@ export default () => (
       <p>
         <strong>QuickNote</strong>
         {' '}
-        by{' '}
+        by
+        {' '}
         <a href="https://github.com/idylicaro"> Idyl Icaro</a>
         .
         The source code is released under the
