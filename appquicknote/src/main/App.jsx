@@ -1,14 +1,19 @@
 import React from 'react';
 import './App.css';
+import { HashRouter} from 'react-router-dom';
+
+import Routes from './Routes';
 
 import Header from '../components/templates/Header';
 import Footer from '../components/templates/Footer';
-import Textarea from '../components/templates/Textarea';
+
 
 export default () => (
-  <div className="app">
-    <Header />
-    <Textarea />
-    <Footer />
-  </div>
+  <HashRouter>
+    
+      <Header />
+      <Routes />
+      <Footer />
+    
+  </HashRouter>
 );
