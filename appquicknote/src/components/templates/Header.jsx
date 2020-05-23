@@ -1,9 +1,10 @@
 import React from 'react';
 import './sass/Header.scss';
+import '../../mystyles.scss';
 import Navbar from './Navbar';
 
 export default () => (
-  <section className="hero is-primary">
+  <section className="hero is-primary" >
     <div className="hero-body">
       <div className="container">
         <h1 className="
