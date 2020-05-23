@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './sass/Textarea.scss';
 
 import 'rbx/index.css';
 
-export default props => (
+class Textarea extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: '',
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
 
-    <textarea name={props.name} id={props.id} cols={props.cols} rows={props.rows} />
-  
-);
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+  }
+
+  render() {
+    return (
+      <textarea onBlur={this.handleChange} />
+    );
+  }
+}
+
+export default Textarea;
