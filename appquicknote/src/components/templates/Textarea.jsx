@@ -14,6 +14,7 @@ class Textarea extends Component {
 
   handleChange(event) {
     this.setState({ value: event.target.value });
+    this.props.callbackGetText(event.target.value);
   }
 
   render() {
