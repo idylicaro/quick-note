@@ -3,6 +3,8 @@ import 'rbx/index.css';
 import {
   Box, Hero, Media, Content, Level,
 } from 'rbx';
+import iconTelegram from '../../imgs/telegram48.png';
+
 import Textarea from '../templates/Textarea';
 
 class Workspace extends Component {
@@ -33,7 +35,7 @@ class Workspace extends Component {
                   <Level.Item as="a" aria-label="telegram">
                     {/* Telegram */}
                     <a href={`https://t.me/share/url?url=quicknote&text=${this.state.valueText}`}>
-                      <button className="button is-dark">Telegram</button>
+                      <img src={iconTelegram} alt="Telegram" />
                     </a>
                   </Level.Item>
                   <Level.Item as="a" aria-label="download">
