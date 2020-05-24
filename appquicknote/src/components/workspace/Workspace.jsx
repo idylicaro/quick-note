@@ -32,7 +32,9 @@ class Workspace extends Component {
                   </Level.Item>
                   <Level.Item as="a" aria-label="telegram">
                     {/* Telegram */}
-                    <button className="button is-dark">Telegram</button>
+                    <a href={`https://t.me/share/url?url=quicknote&text=${this.state.valueText}`}>
+                      <button className="button is-dark">Telegram</button>
+                    </a>
                   </Level.Item>
                   <Level.Item as="a" aria-label="download">
                     {/* Download */}
