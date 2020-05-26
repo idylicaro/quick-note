@@ -30,7 +30,7 @@ class Workspace extends Component {
                 <Level.Item align="left">
                   <Level.Item as="a" aria-label="telegram">
                     {/* Telegram */}
-                    <span><strong>Share</strong></span>
+                    <span><strong>Share:</strong></span>
                     <a href={`https://t.me/share/url?url=quicknote&text=${this.state.valueText}`}>
                       <img src={iconTelegram} alt="Telegram" />
                     </a>
