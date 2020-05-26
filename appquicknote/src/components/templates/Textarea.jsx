@@ -19,7 +19,7 @@ class Textarea extends Component {
 
   render() {
     return (
-      <textarea onBlur={this.handleChange} />
+      <textarea onBlur={this.handleChange} placeholder="QuickNote"/>
     );
   }
 }

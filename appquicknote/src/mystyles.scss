@@ -4,15 +4,15 @@
 @import "../node_modules/bulma/sass/utilities/functions";
 
 $color1: #f6d8aeff;
-$color2: #090e28;
+$color2: #05386B;
 $color3: #083d77ff;
 $color4: #da4167ff;
 $color5: #f4d35eff;
 
 $gradient-right: linear-gradient(90deg, #F7C0ECff, #EAC0ECff, #DCBFEBff, #CFBFEBff, #C2BEEBff, #B4BEEAff, #A7BDEAff);
 $primary: $color2;
-$info: $color3;
-
+$info: $color2;
+//usando a variavel sucess para passar um gradient
 @import "../node_modules/bulma/sass/utilities/derived-variables";
 
 // 6. Import the rest of Bulma

@@ -4,7 +4,7 @@ import {
   Box, Hero, Media, Content, Level,
 } from 'rbx';
 import iconTelegram from '../../imgs/telegram48.png';
-
+import './Workspace.scss';
 import Textarea from '../templates/Textarea';
 
 class Workspace extends Component {
@@ -22,25 +22,18 @@ class Workspace extends Component {
 
   render() {
     return (
-      <Hero.Body>
+      <Hero.Body is-light is-bold>
         <Box>
           <Media>
             <Media.Item>
               <Level breakpoint="mobile">
                 <Level.Item align="left">
-                  <Level.Item as="a" aria-label="email">
-                    {/* Email */}
-                    <button className="button is-dark">Emaill</button>
-                  </Level.Item>
                   <Level.Item as="a" aria-label="telegram">
                     {/* Telegram */}
+                    <span><strong>Share</strong></span>
                     <a href={`https://t.me/share/url?url=quicknote&text=${this.state.valueText}`}>
                       <img src={iconTelegram} alt="Telegram" />
                     </a>
-                  </Level.Item>
-                  <Level.Item as="a" aria-label="download">
-                    {/* Download */}
-                    <button className="button is-dark">Download</button>
                   </Level.Item>
                 </Level.Item>
               </Level>
