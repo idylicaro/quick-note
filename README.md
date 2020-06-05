@@ -6,6 +6,8 @@
 
 > Quick note is a quick note taking application where you can send these notes to your telegram.
 
+> https://idylicaro.github.io/quick-note/
+
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
