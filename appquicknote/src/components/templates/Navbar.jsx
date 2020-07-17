@@ -11,7 +11,7 @@ export default () => (
     <Navbar.Menu>
       <Navbar.Segment align="start">
         <Navbar.Item href="#/">Home</Navbar.Item>
-        <Navbar.Item href="#/workspace" >Workspace</Navbar.Item>
+        <Navbar.Item href="#/workspace">Workspace</Navbar.Item>
       </Navbar.Segment>
     </Navbar.Menu>
   </Navbar>
